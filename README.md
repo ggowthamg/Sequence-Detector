@@ -29,7 +29,7 @@ Save and Document Results:
 
 Capture the waveforms and include the results in the final report.
 
-Verilog Code for Sequence Detector Using Moore FSM
+# Verilog Code for Sequence Detector Using Moore FSM
 ```
 // moore_sequence_detector.v
 module fsm_sequence(
@@ -85,11 +85,11 @@ module fsm_sequence(
 
 endmodule
 ```
-output
+# Output
 ![Screenshot 2024-10-10 143031](https://github.com/user-attachments/assets/8c94df1f-4c1c-4aac-913a-1ce247fcafd3)
 
 
-Verilog Code for Sequence Detector Using Mealy FSM
+# Verilog Code for Sequence Detector Using Mealy FSM
 ```
 // mealy_sequence_detector.v
 module fsm_sequence_mealy(
@@ -190,12 +190,12 @@ module fsm_sequence_mealy(
 
 endmodule
 ```
-output
+# Output
 ![Screenshot 2024-10-10 144444](https://github.com/user-attachments/assets/31c4e5a1-6780-4eb3-a9f4-19af98335796)
 
 
 
-Testbench for Sequence Detector (Moore and Mealy FSMs)
+# Testbench for Sequence Detector (Moore and Mealy FSMs)
 ```
 `timescale 1ns/1ps
 
@@ -251,7 +251,7 @@ module tb_fsm_sequence;
 
 endmodule
 ```
-output
+# Output
 ![Screenshot 2024-10-10 at 14 51 45_d960193c](https://github.com/user-attachments/assets/607970e6-ae6c-4e2f-a7e2-f5d20bb07b6c)
 
 
